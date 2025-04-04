@@ -1,0 +1,2094 @@
+[
+    {
+        "key": "group_5acbc6d0c3738",
+        "title": "Basic Information for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbc6e12fc90",
+                "label": "First (Given) Name",
+                "name": "first_given_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbc6f62fc91",
+                "label": "Middle Name or Initial",
+                "name": "middle_name_or_initial",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbc7042fc92",
+                "label": "Last (Family) Name",
+                "name": "last_family_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbc7152fc93",
+                "label": "Suffix \/ Credentials",
+                "name": "suffix__credentials",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbc73f2fc94",
+                "label": "VUNetID",
+                "name": "vunetid",
+                "type": "text",
+                "instructions": "VUNetIDs are not displayed, but may be used in the future to pull additional information about this person from other campus directories.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbc7502fc95",
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac64e7593498",
+        "title": "Type Field for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5acf903dac9c8",
+                "label": "Full Title",
+                "name": "full_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac6484352dba",
+                "label": "Type",
+                "name": "type",
+                "type": "select",
+                "instructions": "MeSH Publication Type ( http:\/\/www.nlm.nih.gov\/mesh\/pubtypes.html )",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Journal Article": "Journal Article",
+                    "Addresses": "Addresses",
+                    "Autobiography": "Autobiography",
+                    "Bibliography": "Bibliography",
+                    "Biography": "Biography",
+                    "Case Reports": "Case Reports",
+                    "Classical Article": "Classical Article",
+                    "Clinical Conference": "Clinical Conference",
+                    "Clinical Trial": "Clinical Trial",
+                    "Clinical Trial, Phase I": "Clinical Trial, Phase I",
+                    "Clinical Trial, Phase II": "Clinical Trial, Phase II",
+                    "Clinical Trial, Phase III": "Clinical Trial, Phase III",
+                    "Clinical Trial, Phase IV": "Clinical Trial, Phase IV",
+                    "Collected Works": "Collected Works",
+                    "Comment": "Comment",
+                    "Comparative Study": "Comparative Study",
+                    "Congresses": "Congresses",
+                    "Consensus Development Conference": "Consensus Development Conference",
+                    "Consensus Development Conference, NIH": "Consensus Development Conference, NIH",
+                    "Controlled Clinical Trial": "Controlled Clinical Trial",
+                    "Corrected and Republished Article": "Corrected and Republished Article",
+                    "Dictionary": "Dictionary",
+                    "Directory": "Directory",
+                    "Duplicate Publication": "Duplicate Publication",
+                    "Editorial": "Editorial",
+                    "English Abstract": "English Abstract",
+                    "Evaluation Studies": "Evaluation Studies",
+                    "Festschrift": "Festschrift",
+                    "Government Publications": "Government Publications",
+                    "Guideline": "Guideline",
+                    "Historical Article": "Historical Article",
+                    "In Vitro": "In Vitro",
+                    "Interactive Tutorial": "Interactive Tutorial",
+                    "Interview": "Interview",
+                    "Introductory Journal Article": "Introductory Journal Article",
+                    "Lectures": "Lectures",
+                    "Legal Cases": "Legal Cases",
+                    "Legislation": "Legislation",
+                    "Letter": "Letter",
+                    "Meta-Analysis": "Meta-Analysis",
+                    "Multicenter Study": "Multicenter Study",
+                    "Monograph": "Monograph",
+                    "News": "News",
+                    "Newspaper Article": "Newspaper Article",
+                    "Overall": "Overall",
+                    "Patient Education Handout": "Patient Education Handout",
+                    "Periodical Index": "Periodical Index",
+                    "Personal Narratives": "Personal Narratives",
+                    "Portraits": "Portraits",
+                    "Practice Guideline": "Practice Guideline",
+                    "Publication Components": "Publication Components",
+                    "Publication Formats": "Publication Formats",
+                    "Publication Type Category": "Publication Type Category",
+                    "Published Erratum": "Published Erratum",
+                    "Randomized Controlled Trial": "Randomized Controlled Trial",
+                    "Research Support, American Recovery and Reinvestment Act": "Research Support, American Recovery and Reinvestment Act",
+                    "Research Support, N.I.H., Extramural": "Research Support, N.I.H., Extramural",
+                    "Research Support, N.I.H., Intramural": "Research Support, N.I.H., Intramural",
+                    "Research Support, Non-U.S. Govt Research Support, U.S. Govt, Non-P.H.S.": "Research Support, Non-U.S. Govt Research Support, U.S. Govt, Non-P.H.S.",
+                    "Research Support, U.S. Govt, P.H.S.": "Research Support, U.S. Govt, P.H.S.",
+                    "Retracted Publication": "Retracted Publication",
+                    "Retraction of Publication": "Retraction of Publication",
+                    "Review": "Review",
+                    "Scientific Integrity Review": "Scientific Integrity Review",
+                    "Study Characteristics": "Study Characteristics",
+                    "Support of Research": "Support of Research",
+                    "Technical Report": "Technical Report",
+                    "Textbook": "Textbook",
+                    "Twin Study": "Twin Study",
+                    "Validation Studies": "Validation Studies",
+                    "Video-Audio Media": "Video-Audio Media",
+                    "Webcasts": "Webcasts"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0,
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac64e759870b",
+        "title": "Author Fields for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac64d3eab01a",
+                "label": "Authors",
+                "name": "authors",
+                "type": "repeater",
+                "instructions": "Add as many author as you need.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Author",
+                "sub_fields": [
+                    {
+                        "key": "field_5ac653d724027",
+                        "label": "First (Given) Name",
+                        "name": "first_given_name",
+                        "type": "text",
+                        "instructions": "Include middle name (or Initial) if desired.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5ac6540424028",
+                        "label": "Initials",
+                        "name": "initials",
+                        "type": "text",
+                        "instructions": "Optionally override the initials for the author's first and middle name.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5ac6542324029",
+                        "label": "Last (Family) Name",
+                        "name": "last_family_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5ac654372402a",
+                        "label": "Suffix",
+                        "name": "suffix",
+                        "type": "text",
+                        "instructions": "(e.g., 2nd, or 3rd, etc., Jr or Sr) Do not include honorifics (e.g., PhD, MD, etc.)",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5ac654522402b",
+                        "label": "Role",
+                        "name": "role",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "primary": "Primary Author",
+                            "secondary": "Secondary \/ Tertiary Author",
+                            "editor": "Editor",
+                            "book_editor": "Book Editor (if different from publication editor)",
+                            "translator": "Translator"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0,
+                        "return_format": "value"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbc77c77a4b",
+        "title": "Title and Department for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbc7b4e7a81",
+                "label": "Title and Department",
+                "name": "title_and_department",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5acbc7fce7a82",
+                        "label": "Title \/ Position",
+                        "name": "title__position",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbca8be7a83",
+                        "label": "Department \/ Center \/ Office",
+                        "name": "department__center__office",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbcabdba8ff",
+        "title": "Address for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbcac776583",
+                "label": "Address",
+                "name": "address",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5acbcad676584",
+                        "label": "Type",
+                        "name": "type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "office": "Office Address",
+                            "lab": "Lab Address",
+                            "delivery": "Delivery Address"
+                        },
+                        "default_value": [],
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_5acbcb2b76585",
+                        "label": "Room \/ Suite",
+                        "name": "room__suite",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcb3676586",
+                        "label": "Building",
+                        "name": "building",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcb3f76587",
+                        "label": "Street Address",
+                        "name": "street_address",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcb4a76588",
+                        "label": "Street Address 2",
+                        "name": "street_address_2",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcb5376589",
+                        "label": "City",
+                        "name": "city",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcb5b7658a",
+                        "label": "State",
+                        "name": "state",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Alabama": "Alabama",
+                            "Alaska": "Alaska",
+                            "American Samoa": "American Samoa",
+                            "Arizona": "Arizona",
+                            "Arkansas": "Arkansas",
+                            "California": "California",
+                            "Colorado": "Colorado",
+                            "Connecticut": "Connecticut",
+                            "Delaware": "Delaware",
+                            "District Of Columbia": "District Of Columbia",
+                            "Federated States Of Micronesia": "Federated States Of Micronesia",
+                            "Florida": "Florida",
+                            "Georgia": "Georgia",
+                            "Guam GU": "Guam GU",
+                            "Hawaii": "Hawaii",
+                            "Idaho": "Idaho",
+                            "Illinois": "Illinois",
+                            "Indiana": "Indiana",
+                            "Iowa": "Iowa",
+                            "Kansas": "Kansas",
+                            "Kentucky": "Kentucky",
+                            "Louisiana": "Louisiana",
+                            "Maine": "Maine",
+                            "Marshall Islands": "Marshall Islands",
+                            "Maryland": "Maryland",
+                            "Massachusetts": "Massachusetts",
+                            "Michigan": "Michigan",
+                            "Minnesota": "Minnesota",
+                            "Mississippi": "Mississippi",
+                            "Missouri": "Missouri",
+                            "Montana": "Montana",
+                            "Nebraska": "Nebraska",
+                            "Nevada": "Nevada",
+                            "New Hampshire": "New Hampshire",
+                            "New Jersey": "New Jersey",
+                            "New Mexico": "New Mexico",
+                            "New York": "New York",
+                            "North Carolina": "North Carolina",
+                            "North Dakota": "North Dakota",
+                            "Northern Mariana Islands": "Northern Mariana Islands",
+                            "Ohio": "Ohio",
+                            "Oklahoma": "Oklahoma",
+                            "Oregon": "Oregon",
+                            "Palau": "Palau",
+                            "Pennsylvania": "Pennsylvania",
+                            "Puerto Rico": "Puerto Rico",
+                            "Rhode Island": "Rhode Island",
+                            "South Carolina": "South Carolina",
+                            "South Dakota": "South Dakota",
+                            "Tennessee": "Tennessee",
+                            "Texas": "Texas",
+                            "Utah": "Utah",
+                            "Vermont": "Vermont",
+                            "Virgin Islands": "Virgin Islands",
+                            "Virginia": "Virginia",
+                            "Washington": "Washington",
+                            "West Virginia": "West Virginia",
+                            "Wisconsin": "Wisconsin",
+                            "Wyoming": "Wyoming",
+                            "Other": "Other"
+                        },
+                        "default_value": [],
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_5acbccef7658b",
+                        "label": "zip",
+                        "name": "zip",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 3,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac65676d4ee3",
+        "title": "Publication Date for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac656a94979c",
+                "label": "Year",
+                "name": "year",
+                "type": "text",
+                "instructions": "(Enter the four digit year, e.g., 1999)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 40,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac656d24979d",
+                "label": "Month",
+                "name": "month",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 30,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "January",
+                    "2": "February",
+                    "3": "March",
+                    "4": "April",
+                    "5": "May",
+                    "6": "June",
+                    "7": "July",
+                    "8": "August",
+                    "9": "September",
+                    "10": "October",
+                    "11": "November",
+                    "12": "December"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5ac657394979e",
+                "label": "Day",
+                "name": "day",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 30,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "4": 4,
+                    "5": 5,
+                    "6": 6,
+                    "7": 7,
+                    "8": 8,
+                    "9": 9,
+                    "10": 10,
+                    "11": 11,
+                    "12": 12,
+                    "13": 13,
+                    "14": 14,
+                    "15": 15,
+                    "16": 16,
+                    "17": 17,
+                    "18": 18,
+                    "19": 19,
+                    "20": 20,
+                    "21": 21,
+                    "22": 22,
+                    "23": 23,
+                    "24": 24,
+                    "25": 25,
+                    "26": 26,
+                    "27": 27,
+                    "28": 28,
+                    "29": 29,
+                    "30": 30,
+                    "31": 31
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0,
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 3,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbcd594fa2b",
+        "title": "Brief Description for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbcd63dd351",
+                "label": "brief Description",
+                "name": "brief_description",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 4,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac657edc08da",
+        "title": "Publication Information for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac6581d015db",
+                "label": "Book Title",
+                "name": "book_title",
+                "type": "text",
+                "instructions": "Only use this field if the publication is a contribution to a book \/ conference proceedings that is a collection of works by multiple authors.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65832015dc",
+                "label": "Journal Title",
+                "name": "journal_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac6583f015dd",
+                "label": "Journal Abbreviated Title",
+                "name": "journal_abbreviated_title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac6584e015de",
+                "label": "Medium",
+                "name": "medium",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "print": "print",
+                    "internet": "internet"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5ac6587d015df",
+                "label": "Pagination",
+                "name": "pagination",
+                "type": "text",
+                "instructions": "Use NLM pagination format. e.g., \"284-7\" e.g., \"768\", or for part of a book, \"Chapter 29, Endometriosis; p. 1103-33\"",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac658a4015e0",
+                "label": "Issue Number",
+                "name": "issue_number",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac658b5015e1",
+                "label": "Volume",
+                "name": "volume",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac658c0015e2",
+                "label": "Edition",
+                "name": "edition",
+                "type": "text",
+                "instructions": "e.g., \"3rd rev. ed.\"",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac658d6015e3",
+                "label": "Publisher",
+                "name": "publisher",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac658e6015e4",
+                "label": "Location Published",
+                "name": "location_published",
+                "type": "text",
+                "instructions": "Use the city name. For cities in other countries, if the city is not well known or could be confused with another city of the same name, follow the city with the country name, either written in full or as the two-letter ISO country code in parentheses. e.g., \"Oxford (England)\". If the location is inferred from the location of the University and not stated directly (i.e., for a dissertation) surround the location with brackets. e.g., \"[Corvallis (OR)]\"",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 4,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbcd9613247",
+        "title": "Phone Numbers for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbcda2f345f",
+                "label": "Phone Numbers",
+                "name": "phone_numbers",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5acbcdb2f3460",
+                        "label": "Number",
+                        "name": "number",
+                        "type": "text",
+                        "instructions": "suggested format: (615) 123-4567",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5acbcdc4f3461",
+                        "label": "Type",
+                        "name": "type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "phone": "Phone",
+                            "lab": "Lab Phone",
+                            "clinic": "Clinic Phone",
+                            "fax": "Fax"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0,
+                        "return_format": "value"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac6591f7d713",
+        "title": "Web Address Field for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac65932c2f30",
+                "label": "Web Addresses",
+                "name": "web_addresses",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Row",
+                "sub_fields": [
+                    {
+                        "key": "field_5ac65955c2f31",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5ac65988c2f32",
+                        "label": "URL",
+                        "name": "url",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac659bcde0a7",
+        "title": "File Field for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac659ca855f9",
+                "label": "Files",
+                "name": "files",
+                "type": "file",
+                "instructions": "Attach relevant files. Use the description field to label the file. For example, you could upload a PDF of the full text and use the description \"Full Text\".",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_size": "",
+                "max_size": 50,
+                "mime_types": "pdf, doc, docx, xls, xlsx, mp4, mov, mp3, jpg, gif, png, rtf"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 6,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbce196a9a1",
+        "title": "Morelink and File CV for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbce3df7f62",
+                "label": "More Information Link",
+                "name": "more_information_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbce48f7f63",
+                "label": "CV",
+                "name": "cv",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_size": "",
+                "max_size": 8,
+                "mime_types": "pdf"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 6,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbce88c7dd8",
+        "title": "Bio\/About for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbcea9ee890",
+                "label": "Bio \/ About",
+                "name": "bio__about",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 7,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac65a3f84fea",
+        "title": "Decorative Image Field for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac65a5210cda",
+                "label": "Decorative Image",
+                "name": "decorative_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 7,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbd08ea1fcd",
+        "title": "Clinical Information for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbd09c475fd",
+                "label": "Clinical Interest",
+                "name": "clinical_interest",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5acbd0b3475fe",
+                "label": "Website for Patients",
+                "name": "website_for_patients",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 8,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac65a9072f7f",
+        "title": "Conference Fields for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac65aa163696",
+                "label": "Conference Date",
+                "name": "conference_date",
+                "type": "text",
+                "instructions": "e.g., \"2003 Jun 28 - Jul 3\"",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65ab963697",
+                "label": "Title",
+                "name": "title",
+                "type": "text",
+                "instructions": "Enter the conference title, unless the Title given above includes the conference name (e.g., Proceedings of the 10th World Congress on Pain)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65acf63698",
+                "label": "Location",
+                "name": "location",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 8,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac65af33f735",
+        "title": "Abstract Field for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac65b0be0c2d",
+                "label": "Abstract",
+                "name": "abstract",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 9,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5ac65b2a85df6",
+        "title": "Identifiers Fields for Lab Publication",
+        "fields": [
+            {
+                "key": "field_5ac65b3588a41",
+                "label": "NLM Unique ID",
+                "name": "nlm_unique_id",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b4688a42",
+                "label": "ISSN \/ ESSN",
+                "name": "issn__essn",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b4f88a43",
+                "label": "PMID",
+                "name": "pmid",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b5588a44",
+                "label": "DOI",
+                "name": "doi",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b5c88a45",
+                "label": "PII",
+                "name": "pii",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b6288a46",
+                "label": "PMCID",
+                "name": "pmcid",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b6988a47",
+                "label": "NIHMSID",
+                "name": "nihmsid",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5ac65b7488a48",
+                "label": "ISBN",
+                "name": "isbn",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "publication"
+                }
+            ]
+        ],
+        "menu_order": 9,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_5acbd0d868776",
+        "title": "Research Information for Lab Person",
+        "fields": [
+            {
+                "key": "field_5acbd0e0f9110",
+                "label": "Lab Website",
+                "name": "lab_website",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5acbd0eff9111",
+                "label": "Research Description",
+                "name": "research_description",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5acbd0fff9112",
+                "label": "Postdoctoral Positions Available",
+                "name": "postdoctoral_positions_available",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "lab_person"
+                }
+            ]
+        ],
+        "menu_order": 9,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    }
+]
